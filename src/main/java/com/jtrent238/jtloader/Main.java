@@ -17,6 +17,7 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 
 @Mod(modid=Main.MODID, name=Main.MODNAME, version=(Main.MODVERSION)/*, dependencies="required-after:jtrent238core@[" + YouTubers.COREVERSION + "]"*/)
+@JTMod(modid=Main.MODID, name=Main.MODNAME, version=Main.MODVERSION)
 //@MeddleMod(id=Main.MODID, name=Main.MODNAME, version=(Main.MODVERSION), author=Main.MODAUTHOR)
 public class Main 
 {
@@ -39,9 +40,10 @@ public class Main
 	@ForgeSubscribe(priority = EventPriority.NORMAL)
   public void eventHandler(RenderGameOverlayEvent event) {
 
+	
 	}
 	
-	
+
 @Mod.EventHandler
 public void preInit(FMLPreInitializationEvent event)
 {
