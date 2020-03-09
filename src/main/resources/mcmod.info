@@ -1,15 +1,16 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
+  "modid": "gvc",
+  "description": "Gliby's Voice Chat mod enables in-game voice communication, as well as support for positional audio. Options are opened by PERIOD by default.",
+  "name": "§aGliby's§f Voice Chat Mod",
+  "version": "0.6.1",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "logoFile": "gvclogo.png",
+  "url": "http://gliby.net/",
+  "updateUrl": "http://mods.gliby.net/gliby_vc",
+  "authors": ["@theGliby aka theGliby"],
+  "credits": "Made by @theGliby",
+  "parent": "",
   "screenshots": [],
   "dependencies": []
 }
